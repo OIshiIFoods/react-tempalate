@@ -5,10 +5,12 @@ specifiers:
   '@types/react-dom': ^19.0.2
   cra-template-typescript: 1.2.0
   customize-cra: ^1.0.0
+  postcss-flexbugs-fixes: ^5.0.2
   react: ^19.0.0
   react-app-rewired: ^2.2.1
   react-dom: ^19.0.0
   react-scripts: 5.0.1
+  tailwindcss: ^3.4.17
   typescript: ^5.7.2
 
 dependencies:
@@ -21,7 +23,9 @@ devDependencies:
   '@types/react': 19.0.2
   '@types/react-dom': 19.0.2_@types+react@19.0.2
   customize-cra: 1.0.0
+  postcss-flexbugs-fixes: 5.0.2
   react-app-rewired: 2.2.1_react-scripts@5.0.1
+  tailwindcss: 3.4.17
   typescript: 5.7.2
 
 packages:
@@ -6899,6 +6903,12 @@ packages:
     dependencies:
       postcss: 8.4.49
       postcss-value-parser: 4.2.0
+
+  /postcss-flexbugs-fixes/5.0.2:
+    resolution: {integrity: sha512-18f9voByak7bTktR2QgDveglpn9DTbBWPUzSOe9g0N4WR/2eSt6Vrcbf0hmspvMI6YWGywz6B9f7jzpFNJJgnQ==}
+    peerDependencies:
+      postcss: ^8.1.4
+    dev: true
 
   /postcss-flexbugs-fixes/5.0.2_postcss@8.4.49:
     resolution: {integrity: sha512-18f9voByak7bTktR2QgDveglpn9DTbBWPUzSOe9g0N4WR/2eSt6Vrcbf0hmspvMI6YWGywz6B9f7jzpFNJJgnQ==}

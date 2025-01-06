@@ -1,8 +1,7 @@
 import React from "react";
-import "@/assets/css/App.css";
 
 function App() {
-  return <div>123</div>;
+  return <div className="text-red-800">123</div>;
 }
 
 export default App;
