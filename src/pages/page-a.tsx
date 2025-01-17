@@ -1,11 +1,11 @@
-import React from "react";
-import { useDispatch, useSelector } from "react-redux";
-import { counterSliceActions, RootState } from "../redux";
-import { Button } from "antd";
+import React from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { counterSliceActions, RootState } from '../redux'
+import { Button } from 'antd'
 
 function PageA() {
-  const dispatch = useDispatch();
-  const count = useSelector((state: RootState) => state.value);
+  const dispatch = useDispatch()
+  const count = useSelector((state: RootState) => state.value)
 
   return (
     <div>
@@ -18,7 +18,7 @@ function PageA() {
         减少
       </Button>
     </div>
-  );
+  )
 }
 
-export default PageA;
+export default PageA
