@@ -1,7 +1,12 @@
 import React from "react";
+import MicroRouter from "./routes";
 
 function App() {
-  return <div className="text-red-800">123</div>;
+  return (
+    <>
+      <MicroRouter mode="browser" />
+    </>
+  );
 }
 
 export default App;
